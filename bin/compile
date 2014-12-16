@@ -12,7 +12,7 @@ function indent() {
 BUILD_DIR=$1
 CACHE_DIR=$2
 
-DEB="$CACHE_DIR/wkhtmltopdf.deb"
+DEB="$CACHE_DIR/wkhtmltopdf_0.12.2-dev-5dea253"
 if [ ! -f $DEB ]; then
   WKHTMLTOPDF_DOWNLOAD_URL="http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.2-dev/wkhtmltox-0.12.2-dev-5dea253_linux-trusty-amd64.deb"
   echo "-----> Downloading wkhtmltopdf: $WKHTMLTOPDF_DOWNLOAD_URL"
